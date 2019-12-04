@@ -1,0 +1,157 @@
+/* * {outline: 1px solid red !important;} */
+
+
+/*
+Block elements will have padding and
+border included in the element's
+total width and height
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+/*
+Make HTML 5 elements display
+block-level for consistent styling
+*/
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+/*
+Prevent images and other objects
+from overflowing parent
+*/
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+body {
+  color: #424242;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========== GLOBAL CLASSES ========== */
+.contain-960 {
+  max-width: 960px;  /* set to 960px or 1200px */
+  margin: 0 auto;
+}
+
+.contain-1200 {
+  max-width: 1200px;  /* set to 960px or 1200px */
+	margin: 0 auto;
+	padding: 1rem;
+	overflow: hidden
+}
+
+.serif {
+font-family: 'Laila', serif;
+}
+
+.sanserif {
+  /* Utilize system fonts for speed and consistency */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.center-text {
+	text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+/* ========== COLORS ========== */
+.pink {
+  color: #d9577a;
+}
+
+.grey-background {
+  background-color: #adadad;
+}
+
+/* ========== GENERAL STYLES ========== */
+
+
+
+
+
+
+
+
+
+/* ========== DESKTOP  ========== */
+
+
+#bruno-pic {
+	/* max-width: 440px; */
+	/* width: 30%; */
+	float: left;
+	padding: 0 1rem 1rem 0;
+	margin: 0 1rem 1rem 0;
+}
+
+.about {
+	font-size: 1.3rem;;
+}
+
+
+
+
+
+/* ========== TABLET  ========== */
+@media screen and (min-width: 601px) {
+
+	#bruno-pic {
+		max-width: 40%;
+		/* min-width:  */
+		float: left;
+		padding: 0 1rem 1rem 0;
+		margin: 0 1rem 1rem 0;
+	}
+
+
+}
+
+/* ========== MOBILE  ========== */
+@media screen and (max-width: 600px) {
+
+	#bruno-pic {
+		max-width: 100%;
+		/* min-width:  */
+		float: left;
+		padding: 0 0 1rem 0;
+		margin: 0 0 1rem 0;
+	}
+
+
+}

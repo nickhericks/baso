@@ -1,0 +1,275 @@
+html, body {
+    overflow-x: hidden;
+    height: auto !important;
+}
+
+.about .inner .row .col-xs-12 p {
+    font-size: 150%;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+#about .inner .row .col-xs-12 img {
+    max-width: 40%;
+    float: left;
+    margin: 0 20px 15px 0;
+}
+
+.price_boxes .box h2 {
+    font-size: 20px !important;
+}
+
+.price_boxes .box ul.price_list li {
+    text-align: left;
+}
+
+.price_boxes .box ul.price_list li.exp {
+    text-align: center;
+    font-weight: bold;
+    color: #f3e0c0 !important;
+}
+
+.price_boxes .box ul.price_list li span.small {
+    font-size: small;
+}
+
+.price_boxes .box ul.price_list li span {
+    float: right;
+    font-weight: bold;
+    color: #f3e0c0;
+}
+
+.price_boxes .box ul.price_list li.menu_type {
+    font-weight: bold;
+    font-size: 125%;
+    color: #f3e0c0 !important;
+}
+
+.price_boxes .centered {
+    margin: 0 25% !important;
+}
+
+footer .logo img {
+    width: 10%;
+}
+
+footer .copyright .copyright_link {
+    color: #f15a24 !important;
+}
+
+.cards {
+    line-height: 195px !important;
+}
+
+@media (max-width: 690px) {
+    #about .inner .row .col-xs-12 img {
+        max-width: 100%;
+        margin: 0px 5% 15px 0%;
+        float: none;
+    }
+}
+
+@media (max-width: 466px) {
+    .price_boxes .box ul.price_list li span.small {
+        line-height: 20px;
+        font-size: small;
+        float: none;
+    }
+}
+
+.maps iframe {
+    pointer-events: none;
+}
+
+.home .home-inner span,
+.about h1 .semibold,
+#pricing-tables h1.header,
+#pricing-tables h2.head,
+.contact h1.header,
+.contact h3,
+.contact h4,
+#portfolio .inner h2,
+.price_boxes .box ul.price_list li.menu_type,
+.testimonials.type-1 h2.header,
+#agency-notes h1.header {
+    font-family: BodoniFLF !important;
+}
+
+.about .inner .row .col-xs-12 p,
+#navigation .nav-menu a.scroll,
+#navigation .nav-menu a.ex-link,
+.second-nav .nav-menu ul li a,
+#pricing-tables .price_boxes li.important,
+.contact .inner .fullwidth .box .details,
+.form, .copyright,
+.testimonials.type-1 .testimonial-slide h3.light,
+.testimonials.type-1 .testimonial-slide p {
+    font-family: BodoniFLF_Normal !important;
+}
+
+#pricing-tables h1.header,
+#portfolio h2.header,
+#agency-notes h1.header {
+    color: #d65076 !important;
+}
+
+#agency-notes .boxes .box .box-icon img {
+    margin-top: -5px;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.dark-bg {
+    position: inherit !important;
+}
+
+#pricing-tables {
+    background-color: white !important;
+}
+
+#pricing-tables .inner .box {
+    background-color: rgba(101, 56, 27, 0.7);
+}
+
+#pricing-tables .inner .box:hover {
+    background-color: rgba(101, 56, 27, 0.7);
+}
+
+.price_list .price_all {
+    line-height: 3px !important;
+}
+
+.contact .inner .fullwidth .box .details {
+    line-height: 72px;
+}
+
+.contact .inner .fullwidth .box .details.add-cont {
+    line-height: 20px;
+    margin-top: 18px;
+}
+
+.fancybox-opened {
+    z-index: 99999 !important;
+}
+
+.fancybox-overlay-fixed {
+    z-index: 9999 !important;
+}
+
+.error {
+    color: orangered;
+    border-color: orangered;
+}
+
+.success {
+    color: transparent;
+    border-color: transparent;
+}
+
+.navigation .nav-inner .logo .socials {
+    display: inline-block;
+}
+
+.navigation .nav-inner .logo .logo-link {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.navigation .nav-inner .logo .socials a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    padding-left: 0;
+    margin-right: 8px;
+}
+
+.navigation.first-nav .nav-inner .logo .socials a {
+    color: #FFF;
+    opacity: 1;
+    background: rgba(255, 255, 255, .4);
+}
+
+.navigation.second-nav .nav-inner .logo .socials a {
+    color: #FFF;
+    opacity: 1;
+    background: rgba(0, 0, 0, .4);
+}
+
+.hours {
+    line-height: 137px !important;
+}
+
+#portfolio.container {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .price_boxes .centered {
+        margin: auto !important;
+    }
+}
+
+@media (max-width: 600px) {
+    footer .logo img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    footer .logo img {
+        width: 30%;
+    }
+
+    .navigation .nav-inner .logo .socials {
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: "BodoniFLF";
+    src: url(../assets/font/BodoniFLF-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "BodoniFLF_Normal";
+    src: url(../assets/font/BodoniFLF-Roman.ttf) format('truetype');
+}
+
+
+
+
+/* Update on Wed 30 Oct, 2019 styles */
+
+.item{
+
+    width:250px;
+    height: 350px;
+}
+
+.item img{
+    object-fit: cover !important;
+}
+
+
+.baso__press_container{
+    width:100%;
+    height: auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+}
+.baso__press__item{
+    margin-right: 10px;
+    height: 350px;
+    width:40vw;
+    /* border:1px solid red; */
+}
+
+.baso__press__item img{
+    width:100%;
+    height: 100%;
+}
