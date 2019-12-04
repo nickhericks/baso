@@ -116,7 +116,7 @@ h2 {
 	/* width: 100vh; */
 	height: 100vh;
 
-  background: url(/img/bg-3-dark_3_1280.jpg) no-repeat center center; 
+  background: url(../img/bg-3-dark_3_1280.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
