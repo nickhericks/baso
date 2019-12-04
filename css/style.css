@@ -112,6 +112,37 @@ h2 {
 /* ========== DESKTOP  ========== */
 
 
+#hero {
+	/* width: 100vh; */
+	height: 100vh;
+
+  background: url(/img/bg-3-dark_3_1280.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-background {
+	width: 100vh;
+	height: 100vh;
+}
+
+#welcome {
+	margin: 0;
+	padding: 0;
+	font-size: 4rem;
+	color: white;
+}
+
+
+
+
 #bruno-pic {
 	/* max-width: 440px; */
 	/* width: 30%; */
