@@ -1,4 +1,4 @@
-/* * {outline: 1px solid red !important;} */
+* {outline: 1px solid red !important;}
 
 
 /*
@@ -110,6 +110,42 @@ h2 {
 
 
 /* ========== DESKTOP  ========== */
+
+nav {
+	height: 70px;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background-color: white;
+	overflow: hidden;
+}
+
+#navContent {
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.nav-left {
+	border: solid green 1px;
+}
+
+.nav-logo-link {
+	border: solid 1px blue;
+}
+
+.nav-logo {
+	height: 50px;
+}
+
+
+.nav-right {
+
+}
+
+
 
 
 #hero {
