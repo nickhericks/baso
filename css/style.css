@@ -78,7 +78,7 @@ font-family: 'Laila', serif;
 }
 
 ul {
-	list;
+	list-style-type: none;
 }
 
 a {
