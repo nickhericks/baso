@@ -196,6 +196,13 @@ nav {
 }
 
 
+.gallery {
+	display: flex;
+}
+
+.gallery li {
+	width: 25%;
+}
 
 
 
