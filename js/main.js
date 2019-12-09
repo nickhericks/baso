@@ -34,9 +34,9 @@ function getNewSlide() {
 	}
 
 		let newSlide = `
-		<li class="customer-item" id=${slideToShow}>
-			<span class="tweet">${customers[slideToShow].tweet}</span>
-			<span class="tweet-author">${customers[slideToShow].name}</span>
+		<li class="tweet-item" id=${slideToShow}>
+			<div class="tweet">${customers[slideToShow].tweet}</div><br>
+			<div class="tweet-author">${customers[slideToShow].name}</div>
 		</li>
 	`;
 
