@@ -1,4 +1,4 @@
-* {outline: 1px solid red !important;}
+/* * {outline: 1px solid red !important;} */
 
 
 /*
@@ -207,9 +207,47 @@ nav {
 
 
 
+/* *************** Press *************** */
 
 
 
+
+
+
+
+/* *************** Menu *************** */
+
+
+
+
+
+
+/* *************** Contact Us *************** */
+
+
+
+
+
+
+
+
+/* *************** Map *************** */
+
+#map,
+#map #google_map {
+    height: 375px;
+}
+
+
+/* *************** Footer *************** */
+
+footer {
+	background-color: #1a1a1a;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #b2b2b2;
+	font-size: .8rem;
+}
 
 footer .logo img {
     width: 10%;
@@ -248,3 +286,5 @@ footer .copyright .copyright_link {
 
 
 }
+
+
