@@ -10,8 +10,6 @@
 	<link rel="stylesheet" href="css/style.css" />
 <link href="https://fonts.googleapis.com/css?family=Laila:300&display=swap" rel="stylesheet">
 
-<!-- Slick Carousel library -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
 </head>
 <body>
@@ -98,13 +96,34 @@
 
 
 
-	<div class="slider">
-		<div>Slide #1</div>
-		<div>Slide #2</div>
-		<div>Slide #3</div>
-		<div>Slide #4</div>
-		<div>Slide #5</div>
-	</div>
+<ul class="carousel">
+	<li class="customer-item show" id="customer1">Customer1</li>
+	<li class="customer-item hide" id="customer2">Customer2</li>
+	<li class="customer-item hide" id="customer3">Customer3</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="slider">
+	<button id="sliderLeft" class="slider-button"></button>
+	<div class="hero-item show" id="hero1">Hero1</div>
+	<div class="hero-item hide" id="hero2">Hero2</div>
+	<div class="hero-item hide" id="hero3">Hero3</div>
+	<button id="sliderRight" class="slider-button"></button>
+</div>
 
 
 
@@ -127,15 +146,13 @@
 					</div>
 					<div class="cbp-item">
 						<h3 class="t-center light">
-							Round 2 of pastries at @baso_patissier is even bloodier. These New Years resolutions are looking awfully
-							unfamiliar… #RwOT
+							Round 2 of pastries at @baso_patissier is even bloodier. These New Years resolutions are looking awfully unfamiliar… #RwOT
 						</h3>
 						<p class="uppercase light white t-center">Adam Kyamatare</p>
 					</div>
 					<div class="cbp-item">
 						<h3 class="t-center light">
-							Tasting at @baso_patissier! Their signature chocolate “Matadi” is EVERYTHING! Sweet tooth heaven. SUPPORT YOUR
-							OWN! #Rwanda #RwOT
+							Tasting at @baso_patissier! Their signature chocolate “Matadi” is EVERYTHING! Sweet tooth heaven. SUPPORT YOUR OWN! #Rwanda #RwOT
 						</h3>
 						<p class="uppercase light white t-center">Regis Isheja</p>
 					</div>
@@ -456,7 +473,6 @@
 
 
 	<section id="map" class="fullwidth">
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 		<div id="google_map" class="maps">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7974.988525324993!2d30.06837814830157!3d-1.955715172156665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79cdeb3f62dc8f94!2sBaso%20P%C3%A2tissier!5e0!3m2!1sen!2sus!4v1575902028810!5m2!1sen!2sus"
@@ -490,17 +506,11 @@
 
 <!-- TODO: Scripts go here -->
 
-<!-- Slick Carousel library -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
+<script src="./js/main.js"></script>
 <script>
-	$('.slider').slick({
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 2000,
-	});
+
+
+
 </script>
 
 
