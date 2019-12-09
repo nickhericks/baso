@@ -23,7 +23,16 @@ let customers = [
 
 const carousel = document.querySelector(".carousel");
 
+let slides = '';
 
-for(customer of customers) {
-	
-}
+customers.forEach( (customer, index) => {
+	let newSlide = `
+		<li class="customer-item" id=${index}>
+			<span class="tweet">${customer.tweet}</span>
+			<span class="tweet-author">${customer.name}</span>
+		</li>
+	`;
+	slides = slides + newSlide;
+});
+
+carousel.innerHTML = slides;
