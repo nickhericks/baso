@@ -9,6 +9,10 @@
 	<link rel="icon" type="image/png" href="./img/logo.png" />
 	<link rel="stylesheet" href="css/style.css" />
 <link href="https://fonts.googleapis.com/css?family=Laila:300&display=swap" rel="stylesheet">
+
+<!-- Slick Carousel library -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 </head>
 <body>
 
@@ -91,6 +95,17 @@
 			<li><a href=""><img src="./img/baso_item8.jpg" alt="baso item"></a></li>
 		</ul>
 	</section>
+
+
+
+	<div class="slider">
+		<div>Slide #1</div>
+		<div>Slide #2</div>
+		<div>Slide #3</div>
+		<div>Slide #4</div>
+		<div>Slide #5</div>
+	</div>
+
 
 
 		<section class="testimonials type-1 background37 parallax3 xdark-bg">
@@ -474,6 +489,20 @@
 
 
 <!-- TODO: Scripts go here -->
+
+<!-- Slick Carousel library -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script>
+	$('.slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+	});
+</script>
+
 
 
 </body>
