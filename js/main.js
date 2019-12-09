@@ -1,3 +1,5 @@
+const carousel = document.querySelector(".carousel");
+
 let slideToShow = 0;
 let customers = [
 	{
@@ -22,31 +24,6 @@ let customers = [
 	}
 ];
 
-const carousel = document.querySelector(".carousel");
-
-let slides = '';
-
-customers.forEach( (customer, index) => {
-	let display = '';
-
-	if(index === 0) {
-		display = 'show';
-	} else {
-		display = 'hide'
-	}
-
-	let newSlide = `
-		<li class="customer-item ${display}" id=${index}>
-			<span class="tweet">${customer.tweet}</span>
-			<span class="tweet-author">${customer.name}</span>
-		</li>
-	`;
-	slides = slides + newSlide;
-});
-
-// carousel.innerHTML = slides;
-
-
 var intervalID = window.setInterval(getNewSlide, 3000);
 
 function getNewSlide() {
@@ -63,21 +40,5 @@ function getNewSlide() {
 		</li>
 	`;
 
-carousel.innerHTML = newSlide;
-
-	
+	carousel.innerHTML = newSlide;	
 }
-
-
-// Create function to display new slide after delay
-
-let shuffleSlides = (slides, index) => {
-	console.log(slides);
-
-
-
-
-}
-
-
-shuffleSlides(carousel);
