@@ -1,4 +1,4 @@
-/* * {outline: 1px solid red !important;} */
+* {outline: 1px solid red !important;}
 
 
 /*
@@ -217,9 +217,28 @@ nav {
 
 /* *************** Menu *************** */
 
+#menu {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.price-table {
+	background-color: #65381aa9;
+	width: 40%;
+}
 
 
+.price_list li {
+	color: white;
+}
 
+.price_list li span {
+	float: right;
+	font-weight: bold;
+	/* font-size: 18px; */
+  color: #f3e0c0;
+}
 
 
 /* *************** Contact Us *************** */
