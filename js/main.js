@@ -42,3 +42,8 @@ function getNewSlide() {
 
 	carousel.innerHTML = newSlide;	
 }
+
+
+
+
+// Copyright script
