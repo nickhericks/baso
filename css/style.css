@@ -206,6 +206,21 @@ nav {
 
 
 
+
+
+
+
+
+footer .logo img {
+    width: 10%;
+}
+
+footer .copyright .copyright_link {
+    color: #f15a24 !important;
+}
+
+
+
 /* ========== TABLET  ========== */
 @media screen and (min-width: 601px) {
 
