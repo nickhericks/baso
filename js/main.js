@@ -1,4 +1,4 @@
-const carousel = document.querySelector(".carousel");
+const carousel = document.querySelector('.carousel');
 
 let slideToShow = 0;
 let customers = [
@@ -24,7 +24,7 @@ let customers = [
 	}
 ];
 
-var intervalID = window.setInterval(getNewSlide, 3000);
+window.setInterval(getNewSlide, 3000);
 
 function getNewSlide() {
 	if(slideToShow < 4) {
@@ -33,7 +33,7 @@ function getNewSlide() {
 		slideToShow = 0;
 	}
 
-		let newSlide = `
+	let newSlide = `
 		<li class="tweet-item" id=${slideToShow}>
 			<div class="tweet">${customers[slideToShow].tweet}</div><br>
 			<div class="tweet-author">${customers[slideToShow].name}</div>
