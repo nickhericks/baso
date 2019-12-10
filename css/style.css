@@ -140,18 +140,25 @@ nav {
 	top: 0;
 	z-index: 100;
 	background-color: white;
-	overflow: hidden;
 }
 
 #navContent {
 	height: 100%;
 	display: flex;
 	flex-flow: row wrap;
-
+	align-items: center;
+	justify-content: space-between;
+	border: solid 1px red;
+	padding: 0;
 }
 
 .nav-left {
+	height: auto;
 	border: solid green 1px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav-logo-link {
@@ -164,9 +171,14 @@ nav {
 
 
 .nav-right {
+	display: flex;
+	border: solid green 1px;
 
 }
 
+.nav-right li {
+	padding-left: 1.5rem;
+}
 
 
 

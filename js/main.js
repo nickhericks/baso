@@ -47,3 +47,5 @@ function getNewSlide() {
 
 
 // Copyright script
+const currentYear = document.querySelector('#copyright');
+currentYear.textContent = new Date().getFullYear();

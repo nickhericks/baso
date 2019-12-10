@@ -18,7 +18,11 @@
 	<!-- Navigation bar -->
 	<nav>
 		<div id="navContent" class="contain-1200">
-			<div class="nav-left"></div>
+
+
+
+
+			<div class="nav-left">
 				<a href="#" class="nav-logo-link">
 					<img class="nav-logo" src="./img/logo.png" alt="baso logo">
 				</a>
@@ -27,18 +31,21 @@
 					<a href="#">Twitter</a>
 					<a href="#">Instagram</a>
 				</div>
-			<div class="nav-right">
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="#gallery">GALLERY</a></li>
-					<li><a href="#press">PRESS</a></li>
-					<li><a href="#menu">MENU</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-					<li><a href="">ENGLISH</a></li>
-				</ul>
-				</ul>
 			</div>
+
+			<ul class="nav-right">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#gallery">GALLERY</a></li>
+				<li><a href="#press">PRESS</a></li>
+				<li><a href="#menu">MENU</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+				<li><a href="">ENGLISH</a></li>
+			</ul>
+
+
+
+
 		</div>
 	</nav>
 
@@ -431,29 +438,21 @@
 
 
 	<footer>
-				<a href="#home" class="scroll top-button black-bg">
-					<i class="fa fa-angle-double-up"></i>
-				</a>
-				
-				<div class="footer-inner relative t-center">
-					<div class="logo relative">
-						<img src="./img/logo.png" alt="Baso Logo">
-					</div>
-				
-					<p class="copyright">
-						&copy; 2017
-						<script>new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());</script>, ALL RIGHTS RESERVED. DESIGNED BY
-						<a href="http://www.hexakomb.com" target="_blank" class="copyright_link">
-							HEXAKOMB LTD.
-						</a>
-					</p>
-				</div>
+		<div>
+			<!-- footer logo -->
+			<div class="logo">
+				<img src="./img/logo.png" alt="Baso Logo">
+			</div>
+			<!-- copyright -->
+			<p class="copyright">
+				&copy; 2017 - <span id="copyright"></span>
+				, ALL RIGHTS RESERVED. DESIGNED BY 
+				<a href="http://www.hexakomb.com" target="_blank" class="copyright_link">HEXAKOMB LTD.</a>
+			</p>
+		</div>
 	</footer>
 
-
-
-<!-- TODO: Scripts go here -->
-<script src="./js/main.js"></script>
+<!-- JavaScript -->
+	<script src="./js/main.js"></script>
 </body>
-
 </html>
